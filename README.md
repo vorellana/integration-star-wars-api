@@ -10,6 +10,11 @@ Se crea un personaje y se guarda en una Base de Datos propia.
 Se listan los personajes desde las 2 fuentes de datos: API de Star Wars y de la Base de Datos propia.
 también se puede establecer un texto de búsqueda.
 
+
+### Enlace para probar
+
+### https://lo1bwtmzvb.execute-api.us-east-1.amazonaws.com/dev/swagger
+
 ![alt text](https://github.com/vorellana/integration-star-wars-api/blob/develop/resources/images/swagger-1.png?raw=true)
 
 
