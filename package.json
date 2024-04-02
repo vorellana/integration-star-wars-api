@@ -1,0 +1,31 @@
+{
+  "name": "simple-api-express-db",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "sls offline start",
+    "deploy": "sls deploy",
+    "remove": "sls remove",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1584.0",
+    "axios": "^1.6.8",
+    "express": "^4.18.2",
+    "joi": "^17.12.2",
+    "serverless-auto-swagger": "^2.12.0",
+    "serverless-dynamodb": "^0.2.51",
+    "serverless-http": "^3.1.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "serverless-offline": "^13.3.3",
+    "supertest": "^6.3.4"
+  }
+}
