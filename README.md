@@ -10,7 +10,7 @@ Se crea un personaje y se guarda en una Base de Datos propia.
 Se listan los personajes desde las 2 fuentes de datos: API de Star Wars y de la Base de Datos propia.
 también se puede establecer un texto de búsqueda.
 
-(imagen swagger)
+![alt text](https://github.com/vorellana/integration-star-wars-api/blob/develop/resources/images/swagger-1.png?raw=true)
 
 
 ### Características
@@ -41,9 +41,7 @@ npm run test:coverage
 
 Se generaran los resultados de las pruebas unitarias de la siguiente manera:
 
-
-(imagen test)
-
+![alt text](https://github.com/vorellana/integration-star-wars-api/blob/develop/resources/images/unit-test-1.png?raw=true)
 
 ### Ejecución local
 Nos colocamos en la carpeta dynamodb que esta en la raíz del proyecto y ejecutamos el comando:
@@ -69,4 +67,4 @@ npm serverless deploy
 
 Se generara en la terminal el resultado de éxito del desliegue en AWS de la siguiente manera:
 
-(imagen deploy)
+![alt text](https://github.com/vorellana/integration-star-wars-api/blob/develop/resources/images/deploy-1.png?raw=true)
